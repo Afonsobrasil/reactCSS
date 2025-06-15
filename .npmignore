@@ -3,3 +3,4 @@ node_modules/
 tsconfig.json
 tsup.config.json
 .vscode/
+test/
