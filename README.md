@@ -1,17 +1,19 @@
 # <img src="./img/logo.png" width="100px" height="100px"> <div>reactCSS</div>
 
+<span style="font-size: 20px;">REACTCSS SUPPORTS REACT AND REACT-DOM ONLY. USE REACT-NATIVE `StyleSheet` </span>
+
 reactCSS is a way to implement CSS onto your react app.
 
-## Why use react-css?
+## Why use reactCSS?
 
-react-css is just normal CSS, but you can actually feel like writing JavaScript when doing it. Also, you would not need a `styles.css` file for styles except if you want to select tags overall or do animations.
+reactcss is just normal CSS, but you can actually feel like writing JavaScript when doing it. Also, you would not need a `styles.css` file for styles except if you want to select tags overall or do animations. Also, it supports typescript, commonJS (To be honest, i don't think you'll ever use CommonJS in a react project), and Modules.
 
 ## How to use it
 
 reactCSS can be easily used by simply doing something like:
 
 ```js
-import { StyleSheet } from "react-css";
+import { StyleSheet } from "@afonso/react-css";
 
 function App() {
   const Style1 = new StyleSheet({
@@ -23,8 +25,8 @@ function App() {
 
   return (
     <>
-      <h1 class={Style1}>Hello world!</h1>
-      <p class={Style2}>reactCSS made the styles on this page.</p>
+      <h1 styles={Style1}>Hello world!</h1>
+      <p styles={Style2}>reactCSS made the styles on this page.</p>
     </>
   );
 }
@@ -32,9 +34,9 @@ function App() {
 
 ## Where to use it
 
-react-css currently works with react and react-dom. In this case, webpages. A better option to use for react-native styling is the package itself.
+reactCSS currently works with react and react-dom. In this case, webpages. A better option to use for react-native styling is the package itself.
 
-## How does react-css even work?
+## How does reactCSS even work?
 
 Might be how you expected it. It basically turns something like this:
 
@@ -54,7 +56,7 @@ const styles = {
 
 ### What about settings that use kebab-case?
 
-With react-css, all of our settings are converted into kebab-case after turning it into a object.
+With reactCSS, all of our settings are converted into kebab-case after turning it into a object.
 
 For example, we would turn `backgroundColor` into `background-color`.
 

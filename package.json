@@ -1,5 +1,5 @@
 {
-  "name": "react-css",
+  "name": "@afonso/react-css",
   "version": "0.1.0",
   "description": "Package used to integrate CSS onto javascript.",
   "keywords": [
