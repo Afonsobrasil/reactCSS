@@ -1,6 +1,11 @@
 import { CSSProps } from "./types/index";
 export * as types from "./types/index";
 
+/**
+ * @class CascadingStyleSheet
+ * @description Used to create a react CSS.
+ */
+
 export default class CascadingStyleSheet implements CSSProps {
     accentColor?: string;
     alignContent?: string;
