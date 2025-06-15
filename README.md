@@ -13,7 +13,7 @@ reactcss is just normal CSS, but you can actually feel like writing JavaScript w
 reactCSS can be easily used by simply doing something like:
 
 ```js
-import { StyleSheet } from "@afonso/react-css";
+import { StyleSheet } from "@afonsobrasil/react-css";
 
 function App() {
   const Style1 = new StyleSheet({
