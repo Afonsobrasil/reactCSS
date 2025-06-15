@@ -1,9 +1,5 @@
 node_modules/
 dist/
 
-# Testing folder
-
-test/
-
 # All packages
 package-lock.json
