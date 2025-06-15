@@ -1,0 +1,35 @@
+{
+  "name": "react-css",
+  "version": "0.1.0",
+  "description": "Package used to integrate CSS onto javascript.",
+  "keywords": [
+    "css",
+    "react",
+    "react-css",
+    "easy-css"
+  ],
+  "homepage": "https://github.com/Afonsobrasil/reactCSS#readme",
+  "bugs": {
+    "url": "https://github.com/Afonsobrasil/reactCSS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afonsobrasil/reactCSS.git"
+  },
+  "license": "MIT",
+  "author": "Afonso",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
