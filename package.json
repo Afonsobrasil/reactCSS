@@ -1,6 +1,6 @@
 {
   "name": "@afonsobrasil/react-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Package used to integrate CSS onto javascript.",
   "keywords": [
     "css",
