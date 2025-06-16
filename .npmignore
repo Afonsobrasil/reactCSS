@@ -1,5 +1,5 @@
 src/
 node_modules/
 tsconfig.json
-tsup.config.json
+tsup.config.ts
 .vscode/
