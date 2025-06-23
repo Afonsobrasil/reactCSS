@@ -13,20 +13,34 @@ reactcss is just normal CSS, but you can actually feel like writing JavaScript w
 reactCSS can be easily used by simply doing something like:
 
 ```js
-import { StyleSheet } from "@afonsobrasil/react-css";
+import { CascadingStyleSheet } from "react-cascading-style-sheets";
 
-function App() {
-  const Style1 = new StyleSheet({
+export default function App() {
+  const Style1 = new CascadingStyleSheet({
     color: "blue",
   });
-  const Style2 = new StyleSheet({
+  const Style2 = new CascadingStyleSheet({
     backgroundColor: "white",
   });
 
   return (
     <>
-      <h1 styles={Style1}>Hello world!</h1>
-      <p styles={Style2}>reactCSS made the styles on this page.</p>
+      <h1 style={Style1}>Hello world!</h1>
+      <p style={Style2}>reactCSS made the styles on this page.</p>
+    </>
+  );
+}
+```
+
+Or, if you want to edit just one thing:
+
+```js
+import { styling } from "react-cascading-style-sheets";
+
+export default function App() {
+  return (
+    <>
+      <p style={styling.accentColor("white")}></p>
     </>
   );
 }

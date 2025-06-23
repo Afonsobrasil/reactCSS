@@ -1,6 +1,6 @@
 {
-  "name": "@afonsobrasil/react-css",
-  "version": "0.1.2",
+  "name": "react-cascading-style-sheets",
+  "version": "0.2.0",
   "description": "Package used to integrate CSS onto javascript.",
   "keywords": [
     "css",
@@ -27,9 +27,5 @@
   "devDependencies": {
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
   }
 }
