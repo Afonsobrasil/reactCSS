@@ -400,4 +400,8 @@ export class CascadingStyleSheet implements CSSProps {
         }
         return result;
     }
+
+    toStyle(): React.CSSProperties {
+        return { ...this } as React.CSSProperties;
+    }
 }

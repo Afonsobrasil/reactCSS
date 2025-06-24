@@ -1,6 +1,6 @@
 {
   "name": "react-cascading-style-sheets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Package used to integrate CSS onto javascript.",
   "keywords": [
     "css",
